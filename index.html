@@ -3,73 +3,43 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Ryan — AI & Physics Projects</title>
-  <meta name="description" content="Ryan — student building beginner-friendly AI projects and writing about physics, learning, and growth." />
+  <title>Ryan — AI & Physics</title>
+  <meta name="description" content="Ryan — student building projects in AI and writing about physics, learning, and growth." />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="site-header">
-    <div class="inner">
-      <h1>Ryan</h1>
-      <p class="subtitle">AI & Physics student — building projects, writing about learning</p>
-      <nav class="nav">
-        <a href="#projects">Projects</a>
-        <a href="#blog">Blog</a>
-        <a href="#contact">Contact</a>
-      </nav>
+  <main class="container" role="main">
+    <header class="header">
+      <!-- Option A: Avatar (initials) -->
+      <div class="avatar" aria-hidden="true">RG</div>
+
+      <div>
+        <h1 class="title">Ryan Gupta</h1>
+        <p class="subtitle">AI & Physics • Student • Building small projects & clear explanations</p>
+      </div>
+    </header>
+
+    <p class="lead">I build projects to understand real systems — tiny neural nets, study tools, and clear explainer notes on physics. This page shows what I’m working on now.</p>
+
+    <div class="row" aria-label="Primary links">
+      <a class="btn btn-accent" href="https://github.com/ryangupta-ataraxia" target="_blank" rel="noopener">GitHub</a>
+      <a class="btn" href="#projects">Projects</a>
+      <a class="btn" href="#contact">Contact</a>
     </div>
-  </header>
 
-  <main class="content">
-    <section id="about" class="card">
-      <h2>About me</h2>
-      <p>Hi — I’m Ryan. I build small AI projects to learn fundamentals and write clear notes on physics and studying. Here are some things I’ve shipped.</p>
-      <p class="muted">Student • Curious • Likes efficient explanations</p>
+    <section id="projects" class="card" aria-labelledby="featured-title">
+      <h3 id="featured-title">Featured project — Digit Recognizer</h3>
+      <p class="meta">A tiny CNN implemented from scratch in Python. Designed to learn fundamentals rather than beat benchmarks.</p>
+      <p style="margin-top:8px"><a href="https://github.com/ryangupta-ataraxia/digit-recognizer" target="_blank" class="btn">View repo</a></p>
     </section>
 
-    <section id="projects" class="card">
-      <h2>Projects</h2>
-
-      <article class="project">
-        <h3><a href="https://github.com/your-username/digit-recognizer">Digit Recognizer</a></h3>
-        <p>Simple CNN from scratch to recognize handwritten digits. README includes demo GIF and setup steps.</p>
-        <p class="meta">Tech: Python • NumPy • matplotlib</p>
-      </article>
-
-      <article class="project">
-        <h3><a href="https://github.com/your-username/flashcard-generator">Flashcard Generator</a></h3>
-        <p>Generates printable flashcards from plaintext notes to speed up revision.</p>
-        <p class="meta">Tech: Python • CLI</p>
-      </article>
-
-      <article class="project">
-        <h3><a href="https://github.com/your-username/mini-chatbot">Mini Chatbot</a></h3>
-        <p>A simple rule-based chatbot to practice conversations and learn how parsing works.</p>
-        <p class="meta">Tech: Python • Regex</p>
-      </article>
-
-      <p class="cta">Want to see the code? Visit my <a href="https://github.com/your-username">GitHub profile</a>.</p>
+    <section id="contact" class="card" style="display:block;">
+      <h3>Contact</h3>
+      <p class="meta">Best place to reach me: <a href="https://github.com/ryangupta-ataraxia" target="_blank">GitHub</a>. I do not share personal contact info publicly.</p>
     </section>
 
-    <section id="blog" class="card">
-      <h2>Writing</h2>
-      <ul>
-        <li><a href="https://medium.com/@your-username/why-i-love-ai">Why I love AI as a teen</a></li>
-        <li><a href="https://medium.com/@your-username/lessons-from-first-project">Lessons from my first Python project</a></li>
-      </ul>
-    </section>
-
-    <section id="contact" class="card">
-      <h2>Contact</h2>
-      <p>Find me on <a href="https://github.com/your-username">GitHub</a> • <a href="https://www.linkedin.com/in/your-username">LinkedIn</a></p>
-      <p class="muted">No phone number or home address — keep it safe.</p>
-    </section>
+    <p class="meta" style="text-align:center;margin-top:18px">Made with curiosity • Ryan</p>
   </main>
-
-  <footer class="site-footer">
-    <div class="inner">
-      <small>Made by Ryan — Powered by curiosity.</small>
-    </div>
-  </footer>
 </body>
 </html>
+
